@@ -9,7 +9,7 @@ This program implements a **compression algorithm** and a **decompression algori
 In this compression algorithm...
 
 1. input is a string, 
-2. output is a compression string, 
+2. output is a compressed string, 
 3. To produce the compressed output, any run of two or more of the same
 character should be converted to two of that character plus a number
 indicating how many repeated runs were compressed. Examples:

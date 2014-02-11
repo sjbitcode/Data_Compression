@@ -1,11 +1,13 @@
 
-
 var cs = ""; // compressed string
 var dc = ""; // decompressed string
 var word = "AAAABBACCC";
 
 /////////////////////////////////////////////////////////////////////////
 
+/* function which takes a number
+and a letter and simply compresses
+that "substring" based on specs in the README!*/
 function compress(num, letter)
 {
     var attach = letter + letter;
